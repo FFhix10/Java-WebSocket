@@ -11,7 +11,7 @@
     <url>https://github.com/TooTallNate/Java-WebSocket</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <slf4j.version>1.7.25</slf4j.version>
+        <slf4j.version>1.7.30</slf4j.version>
     </properties>
     <licenses>
         <license>
@@ -133,8 +133,7 @@
                                     <shadedArtifactAttached>true</shadedArtifactAttached>
                                     <shadedClassifierName>with-dependencies</shadedClassifierName>
                                     <transformers>
-                                        <transformer
-                                                implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
+                                        <transformer implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
                                             <resource>simplelogger.properties</resource>
                                             <file>src\main\example\simplelogger.properties</file>
                                         </transformer>
